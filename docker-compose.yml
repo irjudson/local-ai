@@ -34,6 +34,7 @@ services:
       - WATCHTOWER_CLEANUP=true
       - WATCHTOWER_INCLUDE_STOPPED=false
       - WATCHTOWER_SCHEDULE=0 0 3 * * *
+      - DOCKER_API_VERSION=1.44
     restart: unless-stopped
     command: local-ai-ollama local-ai-webui
     networks:
