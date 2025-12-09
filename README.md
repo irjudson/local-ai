@@ -27,6 +27,13 @@ open http://localhost:3000
 
 ## Profiles
 
+**13 profiles available** - 4 general + 9 task-specific:
+
+```bash
+# View all profiles
+ls profiles/
+```
+
 **General Profiles** (good starting point):
 
 - **fast** - Quick responses (3B models, ~4GB)
@@ -43,17 +50,43 @@ open http://localhost:3000
 
 **Task-Based Profiles** (optimized for specific work):
 
-- **programming** - Code generation, debugging (~23GB)
-- **systems-architecture** - Distributed systems, scaling (~26GB)
-- **research** - Paper analysis, synthesis (~45GB)
-- **writing** - Technical docs, creative writing (~45GB)
-- **data-work** - SQL, data analysis (~23GB)
-- **skills-building** - AI skill development (~26GB)
-- **brainstorming** - Creative ideation (~45GB)
-- **document-intelligence** - Long-context analysis (~45GB)
-- **business-research** - Strategic analysis (~45GB)
+- **programming** (~23GB)
+  - qwen2.5-coder:7b + qwen2.5-coder:32b
+  - Code generation, debugging, refactoring
 
-Each task profile includes fast (7-14B) and quality (32B+) models.
+- **systems-architecture** (~26GB)
+  - phi4-reasoning:14b + deepseek-r1:32b
+  - Distributed systems, scaling, performance analysis
+
+- **research** (~45GB)
+  - llama3.3:8b + llama3.3:70b
+  - Paper analysis, literature reviews, synthesis
+
+- **writing** (~45GB)
+  - llama3.3:8b + llama3.3:70b
+  - Technical docs, creative writing, editing
+
+- **data-work** (~23GB)
+  - qwen2.5-coder:7b + deepseek-r1:32b
+  - SQL queries, data analysis, transformations
+
+- **skills-building** (~26GB)
+  - qwen2.5:14b + deepseek-r1:32b
+  - Creating AI skills, prompt engineering
+
+- **brainstorming** (~45GB)
+  - dolphin-llama3:8b + llama3.3:70b
+  - Creative ideation, exploring alternatives
+
+- **document-intelligence** (~45GB)
+  - granite3.1:8b + llama3.3:70b (both 128K context)
+  - Long-context analysis, multi-document synthesis
+
+- **business-research** (~45GB)
+  - llama3.3:8b + llama3.3:70b
+  - Competitive analysis, strategic planning
+
+Each profile includes fast (smaller) and quality (larger) model variants.
 
 ## Requirements
 
