@@ -54,6 +54,7 @@ Choose based on your needs:
 - [Model Selection](docs/model-selection.md) - Profile explanations and custom profiles
 - [Troubleshooting](docs/troubleshooting.md) - Common issues and solutions
 - [Custom Profiles](docs/profiles.md) - Create team-specific profiles
+- [Quick Reference](docs/quick-reference.md) - Command cheat sheet
 
 ## Management
 
