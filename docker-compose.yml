@@ -34,7 +34,6 @@ services:
       - WATCHTOWER_CLEANUP=true
       - WATCHTOWER_INCLUDE_STOPPED=false
       - WATCHTOWER_SCHEDULE=0 0 3 * * *
-      - WATCHTOWER_NOTIFICATIONS=shoutrrr://logger://
     restart: unless-stopped
     command: local-ai-ollama local-ai-webui
     networks:
