@@ -156,5 +156,4 @@ docker system prune
 1. Check [troubleshooting guide](troubleshooting.md)
 2. Review [setup guide](setup-guide.md)
 3. Check container logs
-4. Ask colleagues
-5. Open GitHub issue
+4. Open GitHub issue
