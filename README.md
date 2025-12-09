@@ -53,7 +53,7 @@ Choose based on your needs:
 - [Setup Guide](docs/setup-guide.md) - Detailed installation steps
 - [Model Selection](docs/model-selection.md) - Profile explanations and custom profiles
 - [Troubleshooting](docs/troubleshooting.md) - Common issues and solutions
-- [Custom Profiles](docs/profiles.md) - Create team-specific profiles
+- [Custom Profiles](docs/profiles.md) - Create task-specific profiles
 - [Quick Reference](docs/quick-reference.md) - Command cheat sheet
 
 ## Management

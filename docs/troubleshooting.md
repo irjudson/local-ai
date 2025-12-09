@@ -414,7 +414,7 @@ vm_stat  # macOS
 - Check this guide first
 - Review [setup guide](setup-guide.md)
 - Check [model selection guide](model-selection.md)
-- Ask team members
+- Consult with colleagues
 - Open GitHub issue with logs
 
 ---

@@ -82,7 +82,7 @@
 - Daily development work
 - Most tasks
 - Good performance + quality balance
-- Default choice for teams
+- Default choice for most users
 
 **Why recommended:**
 - Best trade-off for most users

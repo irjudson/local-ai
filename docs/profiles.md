@@ -273,18 +273,18 @@ docker exec local-ai-ollama ollama list
 
 ## Sharing Profiles
 
-### For Your Team
+### For Your Tasks
 
 **1. Add to git:**
 ```bash
-git add profiles/team-profile.json
-git commit -m "feat: add team-specific profile for [use case]"
+git add profiles/custom-profile.json
+git commit -m "feat: add task-specific profile for [use case]"
 git push
 ```
 
-**2. Document in team wiki/README:**
+**2. Document in README/wiki:**
 ```markdown
-### Team Profiles
+### Custom Task Profiles
 
 **Backend Development:** `./scripts/install-profile.sh backend`
 **Frontend Development:** `./scripts/install-profile.sh frontend`
