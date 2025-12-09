@@ -1,5 +1,8 @@
 # Local AI Setup
 
+[![Docker](https://img.shields.io/badge/Docker-Required-blue)](https://www.docker.com/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 **What it is:** Docker-based Ollama + Open WebUI stack for private, offline AI
 
 **Why it matters:** Run AI models locally without cloud dependencies, data stays private
@@ -104,6 +107,29 @@ local-ai/
 **Report issues:** Open issue with Docker version, OS, and error output
 
 **Improve docs:** PRs welcome for clarity, accuracy, examples
+
+## FAQ
+
+**Q: Do I need GPU?**
+A: No. Works on CPU. GPU helps but not required.
+
+**Q: Does this send data to cloud?**
+A: No. Everything runs locally. Completely offline after model download.
+
+**Q: Can I use this commercially?**
+A: Yes. MIT license. Use freely.
+
+**Q: How much disk space?**
+A: 20-50GB depending on models. Fast profile ~4GB, Quality ~18GB.
+
+**Q: What if I have 8GB RAM?**
+A: Try fast profile. May be slow. 16GB recommended minimum.
+
+**Q: Can I add more models later?**
+A: Yes. Run install-profile script again or pull models manually.
+
+**Q: How do I update?**
+A: `docker compose pull && docker compose up -d`
 
 ## License
 
