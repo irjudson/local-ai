@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: local-ai-ollama
+    ports:
+      - "${OLLAMA_PORT:-11434}:11434"
+    volumes:
+      - ./data/ollama:/root/.ollama
+    restart: unless-stopped
+    networks:
+      - local-ai-network
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: local-ai-webui
+    ports:
+      - "${WEBUI_PORT:-3000}:8080"
+    volumes:
+      - ./data/open-webui:/app/backend/data
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    restart: unless-stopped
+    depends_on:
+      - ollama
+    networks:
+      - local-ai-network
+
+networks:
+  local-ai-network:
+    driver: bridge
