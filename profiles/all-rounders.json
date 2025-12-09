@@ -1,0 +1,17 @@
+{
+  "name": "all-rounders",
+  "description": "Single versatile model for both code and chat",
+  "models": [
+    {
+      "name": "qwen2.5-coder:14b",
+      "tag": "latest",
+      "purpose": "Code and general chat"
+    }
+  ],
+  "recommended_for": [
+    "Simplest setup",
+    "One model for everything",
+    "Users who want fewer choices"
+  ],
+  "size_estimate": "~9GB total"
+}

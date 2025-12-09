@@ -1,0 +1,24 @@
+{
+  "name": "quality",
+  "description": "Higher quality models for important work - slower but better results",
+  "models": [
+    {
+      "name": "qwen2.5:14b",
+      "tag": "latest",
+      "purpose": "Better reasoning and complex tasks"
+    },
+    {
+      "name": "deepseek-coder-v2:16b",
+      "tag": "latest",
+      "purpose": "Complex code generation"
+    }
+  ],
+  "recommended_for": [
+    "Important code reviews",
+    "Complex problem solving",
+    "Detailed explanations",
+    "When you have time to wait"
+  ],
+  "size_estimate": "~18GB total",
+  "notes": "May require memory limits on 16GB machines"
+}

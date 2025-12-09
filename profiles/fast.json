@@ -1,0 +1,23 @@
+{
+  "name": "fast",
+  "description": "Quick models for daily tasks - CPU-friendly, sub-second responses",
+  "models": [
+    {
+      "name": "llama3.2:3b",
+      "tag": "latest",
+      "purpose": "Fast general chat"
+    },
+    {
+      "name": "phi3:mini",
+      "tag": "latest",
+      "purpose": "Fast code assistance"
+    }
+  ],
+  "recommended_for": [
+    "Quick questions",
+    "Code completion",
+    "Daily tasks",
+    "16GB RAM machines"
+  ],
+  "size_estimate": "~4GB total"
+}

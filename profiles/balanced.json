@@ -1,0 +1,23 @@
+{
+  "name": "balanced",
+  "description": "Best performance/quality trade-off - recommended default",
+  "models": [
+    {
+      "name": "qwen2.5-coder:7b",
+      "tag": "latest",
+      "purpose": "Code generation and explanation"
+    },
+    {
+      "name": "llama3.1:8b",
+      "tag": "latest",
+      "purpose": "General chat and reasoning"
+    }
+  ],
+  "recommended_for": [
+    "Code development",
+    "Technical writing",
+    "Problem solving",
+    "Most users"
+  ],
+  "size_estimate": "~9GB total"
+}
