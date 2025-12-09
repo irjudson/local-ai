@@ -1,0 +1,25 @@
+{
+  "name": "programming",
+  "description": "Code generation, debugging, and refactoring across 92+ languages",
+  "models": [
+    {
+      "name": "qwen2.5-coder:7b",
+      "tag": "latest",
+      "purpose": "Fast iteration - quick code generation and debugging",
+      "tier": "fast"
+    },
+    {
+      "name": "qwen2.5-coder:32b",
+      "tag": "latest",
+      "purpose": "Deep work - production-ready code, complex refactoring",
+      "tier": "quality"
+    }
+  ],
+  "recommended_for": [
+    "Code generation and completion",
+    "Debugging and error analysis",
+    "Code refactoring",
+    "Multi-language projects"
+  ],
+  "size_estimate": "~23GB total (7B: ~5GB, 32B: ~18GB)"
+}

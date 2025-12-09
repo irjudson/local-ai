@@ -1,0 +1,26 @@
+{
+  "name": "data-work",
+  "description": "Data analysis, SQL queries, data transformations, insights extraction",
+  "models": [
+    {
+      "name": "qwen2.5-coder:7b",
+      "tag": "latest",
+      "purpose": "Fast iteration - quick SQL queries and data transformation scripts",
+      "tier": "fast"
+    },
+    {
+      "name": "deepseek-r1:32b",
+      "tag": "latest",
+      "purpose": "Deep work - complex analytical queries, statistical reasoning, pattern identification",
+      "tier": "quality"
+    }
+  ],
+  "recommended_for": [
+    "SQL query writing",
+    "Data cleaning and transformation",
+    "Exploratory data analysis",
+    "Report generation",
+    "Analytics workflows"
+  ],
+  "size_estimate": "~23GB total (7B: ~5GB, 32B: ~18GB)"
+}

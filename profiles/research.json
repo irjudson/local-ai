@@ -1,0 +1,27 @@
+{
+  "name": "research",
+  "description": "General research, paper analysis, information synthesis",
+  "models": [
+    {
+      "name": "llama3.3:8b",
+      "tag": "latest",
+      "purpose": "Fast iteration - quick literature reviews and paper summaries",
+      "tier": "fast"
+    },
+    {
+      "name": "llama3.3:70b",
+      "tag": "latest",
+      "purpose": "Deep work - 128K context for deep paper analysis and synthesis",
+      "tier": "quality"
+    }
+  ],
+  "recommended_for": [
+    "Academic research",
+    "Literature reviews",
+    "Technical investigation",
+    "Concept learning",
+    "Research paper writing"
+  ],
+  "size_estimate": "~45GB total (8B: ~5GB, 70B: ~40GB)",
+  "notes": "Quality variant (70B) may require extended processing time or cloud resources"
+}

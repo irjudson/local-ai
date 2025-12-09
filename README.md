@@ -27,7 +27,7 @@ open http://localhost:3000
 
 ## Profiles
 
-Choose based on your needs:
+**General Profiles** (good starting point):
 
 - **fast** - Quick responses (3B models, ~4GB)
   - Best for: Daily quick tasks, 16GB RAM machines
@@ -41,11 +41,25 @@ Choose based on your needs:
 - **all-rounders** - Single model (14B, ~9GB)
   - Best for: Simplest setup, one model for everything
 
+**Task-Based Profiles** (optimized for specific work):
+
+- **programming** - Code generation, debugging (~23GB)
+- **systems-architecture** - Distributed systems, scaling (~26GB)
+- **research** - Paper analysis, synthesis (~45GB)
+- **writing** - Technical docs, creative writing (~45GB)
+- **data-work** - SQL, data analysis (~23GB)
+- **skills-building** - AI skill development (~26GB)
+- **brainstorming** - Creative ideation (~45GB)
+- **document-intelligence** - Long-context analysis (~45GB)
+- **business-research** - Strategic analysis (~45GB)
+
+Each task profile includes fast (7-14B) and quality (32B+) models.
+
 ## Requirements
 
 - Docker Desktop installed and running
-- 16GB RAM minimum
-- 20-50GB free disk space (depending on profiles)
+- 16GB RAM minimum (32GB+ recommended for quality variants)
+- 20-50GB free disk space (general profiles) or 80-100GB (task profiles)
 - macOS, Linux, or Windows with WSL2
 
 ## Documentation
@@ -121,7 +135,7 @@ A: No. Everything runs locally. Completely offline after model download.
 A: Yes. MIT license. Use freely.
 
 **Q: How much disk space?**
-A: 20-50GB depending on models. Fast profile ~4GB, Quality ~18GB.
+A: General profiles: 4-18GB. Task profiles: 23-45GB each. Plan for 80-100GB if using multiple task profiles.
 
 **Q: What if I have 8GB RAM?**
 A: Try fast profile. May be slow. 16GB recommended minimum.

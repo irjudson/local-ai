@@ -1,0 +1,27 @@
+{
+  "name": "brainstorming",
+  "description": "Creative ideation, exploring alternatives, divergent thinking",
+  "models": [
+    {
+      "name": "dolphin-llama3:8b",
+      "tag": "latest",
+      "purpose": "Fast iteration - uncensored creative exploration and rapid idea generation",
+      "tier": "fast"
+    },
+    {
+      "name": "llama3.3:70b",
+      "tag": "latest",
+      "purpose": "Deep work - deep creative reasoning with alternative exploration",
+      "tier": "quality"
+    }
+  ],
+  "recommended_for": [
+    "Product ideation",
+    "Creative problem solving",
+    "Design thinking",
+    "Exploring alternatives",
+    "Strategic planning"
+  ],
+  "size_estimate": "~45GB total (8B: ~5GB, 70B: ~40GB)",
+  "notes": "Dolphin model is uncensored for unrestricted creative exploration"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "systems-architecture",
+  "description": "Distributed systems design, scaling patterns, performance analysis, deadlock resolution",
+  "models": [
+    {
+      "name": "phi4-reasoning:14b",
+      "tag": "latest",
+      "purpose": "Fast iteration - quick trade-off analysis and architectural patterns",
+      "tier": "fast"
+    },
+    {
+      "name": "deepseek-r1:32b",
+      "tag": "latest",
+      "purpose": "Deep work - complex distributed systems, CAP theorem, scaling strategies",
+      "tier": "quality"
+    }
+  ],
+  "recommended_for": [
+    "System design interviews",
+    "Architecture reviews",
+    "Performance optimization",
+    "Distributed consensus design",
+    "Failure mode analysis",
+    "Capacity planning"
+  ],
+  "size_estimate": "~26GB total (14B: ~8GB, 32B: ~18GB)",
+  "notes": "Focuses on strategic/architectural thinking rather than code generation"
+}

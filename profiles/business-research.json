@@ -1,0 +1,27 @@
+{
+  "name": "business-research",
+  "description": "Competitive analysis, market positioning, strategic synthesis",
+  "models": [
+    {
+      "name": "llama3.3:8b",
+      "tag": "latest",
+      "purpose": "Fast iteration - quick market overviews and competitive summaries",
+      "tier": "fast"
+    },
+    {
+      "name": "llama3.3:70b",
+      "tag": "latest",
+      "purpose": "Deep work - deep strategic analysis, multi-factor synthesis, complex positioning",
+      "tier": "quality"
+    }
+  ],
+  "recommended_for": [
+    "Competitive analysis",
+    "Market research",
+    "Strategic planning",
+    "Positioning and messaging",
+    "Business case development",
+    "Investment analysis"
+  ],
+  "size_estimate": "~45GB total (8B: ~5GB, 70B: ~40GB)"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "writing",
+  "description": "Technical documentation, creative writing, content editing",
+  "models": [
+    {
+      "name": "llama3.3:8b",
+      "tag": "latest",
+      "purpose": "Fast iteration - quick drafts, outlines, and blog posts",
+      "tier": "fast"
+    },
+    {
+      "name": "llama3.3:70b",
+      "tag": "latest",
+      "purpose": "Deep work - nuanced tone, long-form technical docs, deep editing",
+      "tier": "quality"
+    }
+  ],
+  "recommended_for": [
+    "Technical documentation",
+    "Blog posts and articles",
+    "Creative writing",
+    "Content editing",
+    "Style consistency"
+  ],
+  "size_estimate": "~45GB total (8B: ~5GB, 70B: ~40GB)"
+}

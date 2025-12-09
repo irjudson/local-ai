@@ -1,0 +1,27 @@
+{
+  "name": "document-intelligence",
+  "description": "Deep document analysis, long-context synthesis, cross-referencing",
+  "models": [
+    {
+      "name": "granite3.1:8b",
+      "tag": "latest",
+      "purpose": "Fast iteration - 128K context for quick document summaries",
+      "tier": "fast"
+    },
+    {
+      "name": "llama3.3:70b",
+      "tag": "latest",
+      "purpose": "Deep work - 128K context for multi-document synthesis and insights",
+      "tier": "quality"
+    }
+  ],
+  "recommended_for": [
+    "Multi-document analysis",
+    "Contract review",
+    "Research synthesis",
+    "Long-form content understanding",
+    "Knowledge extraction"
+  ],
+  "size_estimate": "~45GB total (8B: ~5GB, 70B: ~40GB)",
+  "notes": "Both models have 128K context windows for handling extensive documents"
+}

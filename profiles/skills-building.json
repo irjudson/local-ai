@@ -1,0 +1,27 @@
+{
+  "name": "skills-building",
+  "description": "Creating reliable Claude/ChatGPT skills, prompt engineering, testing workflows",
+  "models": [
+    {
+      "name": "qwen2.5:14b",
+      "tag": "latest",
+      "purpose": "Fast iteration - quick prompt iterations and skill drafting",
+      "tier": "fast"
+    },
+    {
+      "name": "deepseek-r1:32b",
+      "tag": "latest",
+      "purpose": "Deep work - ensuring reliability, edge case analysis, rigorous testing",
+      "tier": "quality"
+    }
+  ],
+  "recommended_for": [
+    "AI skill development",
+    "Prompt engineering",
+    "Workflow design",
+    "Testing and validation",
+    "Process documentation"
+  ],
+  "size_estimate": "~26GB total (14B: ~8GB, 32B: ~18GB)",
+  "notes": "Quality tier ensures skills work as designed and handle edge cases reliably"
+}
