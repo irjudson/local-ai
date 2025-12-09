@@ -74,7 +74,11 @@ import json
 with open('$profile_file') as f:
     profile = json.load(f)
     for model in profile['models']:
-        print(f\"{model['name']}:{model.get('tag', 'latest')} {model.get('purpose', '')}\")
+        # Only append tag if model name doesn't already include a version
+        name = model['name']
+        if ':' not in name:
+            name = f\"{name}:{model.get('tag', 'latest')}\"
+        print(f\"{name} {model.get('purpose', '')}\")
 " 2>/dev/null)
 
     if [ -z "$models" ]; then
