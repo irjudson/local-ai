@@ -25,6 +25,21 @@ services:
     networks:
       - local-ai-network
 
+  watchtower:
+    image: containrrr/watchtower:latest
+    container_name: local-ai-watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - WATCHTOWER_CLEANUP=true
+      - WATCHTOWER_INCLUDE_STOPPED=false
+      - WATCHTOWER_SCHEDULE=0 0 3 * * *
+      - WATCHTOWER_NOTIFICATIONS=shoutrrr://logger://
+    restart: unless-stopped
+    command: local-ai-ollama local-ai-webui
+    networks:
+      - local-ai-network
+
 networks:
   local-ai-network:
     driver: bridge
