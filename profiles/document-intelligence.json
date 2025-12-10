@@ -3,7 +3,7 @@
   "description": "Deep document analysis, long-context synthesis, cross-referencing",
   "models": [
     {
-      "name": "granite3.1:8b",
+      "name": "granite3.3:8b",
       "tag": "latest",
       "purpose": "Fast iteration - 128K context for quick document summaries",
       "tier": "fast"
